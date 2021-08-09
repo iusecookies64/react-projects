@@ -1,0 +1,16 @@
+.card-container {
+  /* background-color: rgb(255, 255, 255, 0.5); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  flex: 0 0 25%;
+  /* max-width: 220px; */
+}
+
+.card-container h1 {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+}
