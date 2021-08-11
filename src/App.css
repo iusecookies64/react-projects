@@ -1,5 +1,35 @@
 body {
-  background-color: rgb(99, 145, 245);
   text-align: center;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(247, 188, 198),
+    rgb(255, 255, 0),
+    rgb(0, 255, 255),
+    rgb(95, 245, 95)
+  );
+  position: fixed;
+  top: -10%;
+  left: -10%;
+  height: 120%;
+  width: 120%;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  background-color: rgb(255, 255, 255, 0.7);
+  position: fixed;
+  top: -10%;
+  left: -10%;
+  height: 120%;
+  width: 120%;
+  z-index: -1;
 }
